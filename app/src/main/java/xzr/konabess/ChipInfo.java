@@ -174,7 +174,13 @@ public class ChipInfo {
                 352 + RPMH_REGULATOR_LEVEL_OFFSET,
                 384 + RPMH_REGULATOR_LEVEL_OFFSET,
                 400 + RPMH_REGULATOR_LEVEL_OFFSET,
-                416 + RPMH_REGULATOR_LEVEL_OFFSET
+                416 + RPMH_REGULATOR_LEVEL_OFFSET,
+                432 + RPMH_REGULATOR_LEVEL_OFFSET,
+                448 + RPMH_REGULATOR_LEVEL_OFFSET,
+                464 + RPMH_REGULATOR_LEVEL_OFFSET,
+                480 + RPMH_REGULATOR_LEVEL_OFFSET,
+                496 + RPMH_REGULATOR_LEVEL_OFFSET,
+                512 + RPMH_REGULATOR_LEVEL_OFFSET
         };
         public static final String[] level_str = {
                 "RETENTION",
@@ -193,7 +199,13 @@ public class ChipInfo {
                 "NOM_L3",
                 "TURBO",
                 "TURBO_L0",
-                "TURBO_L1"
+                "TURBO_L1",
+                "DANGER_R0",
+                "DANGER_R1",
+                "DANGER_R2",
+                "DANGER_R3",
+                "LN2_N0",
+                "LN2_N1"
         };
     }
 
